@@ -59,7 +59,7 @@ OPTION (RBDL_BUILD_ADDON_URDFREADER "Build the (experimental) urdf reader" ON)
 OPTION (RBDL_BUILD_ADDON_BENCHMARK "Build the benchmarking tool" OFF)
 OPTION (RBDL_BUILD_ADDON_LUAMODEL "Build the lua model reader" OFF)
 OPTION (RBDL_BUILD_PYTHON_WRAPPER "Build experimental python wrapper" OFF)
-OPTION (RBDL_BUILD_ADDON_URDFREADER_UBUNTU18_04 "Build urdfreader for 18.04" OFF)
+OPTION (UBUNTU18_04 "Build urdfreader for 18.04" OFF)
 
 # Addons
 IF (RBDL_BUILD_ADDON_URDFREADER)

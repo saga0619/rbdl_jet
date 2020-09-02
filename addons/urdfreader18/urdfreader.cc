@@ -14,10 +14,10 @@
 #include <boost/shared_ptr.hpp>
 //#include "ros/ros.h"
 
-typedef boost::shared_ptr<urdf::Link> LinkPtr;
-typedef const boost::shared_ptr<const urdf::Link> ConstLinkPtr;
-typedef boost::shared_ptr<urdf::Joint> JointPtr;
-typedef boost::shared_ptr<urdf::ModelInterface> ModelPtr;
+typedef std::shared_ptr<urdf::Link> LinkPtr;
+typedef const std::shared_ptr<const urdf::Link> ConstLinkPtr;
+typedef std::shared_ptr<urdf::Joint> JointPtr;
+typedef std::shared_ptr<urdf::ModelInterface> ModelPtr;
 
 #else
 #include <urdf/urdfdom_headers/urdf_model/include/urdf_model/model.h>
